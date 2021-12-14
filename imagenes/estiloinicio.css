@@ -1,0 +1,136 @@
+body{
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+h1{
+    color:white;
+    background-color:tomato ;
+    font-size: 26px;
+
+}
+div{
+    color:rgb(255, 255, 255);
+    margin: 10px 100px;
+    background-color: rgb(10, 20, 110);
+}
+h3{
+    color:rgb(255, 255, 255);
+    font-size: 26px;
+}
+nav{
+    background-color:rgb(206, 71, 66);
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+#parrafodelcristo{
+    background-color: tomato;
+    margin: 1%;
+    padding: 30px;
+    width: 30%;
+}
+#Cristo{
+    display:  flex;
+}
+h2{
+    margin: 10px 300px 10px 300px;
+    padding: 1px;
+    color:rgb(255, 255, 255);
+}
+#salarparrafo{
+    background-color: tomato;
+    margin: 1%;
+    padding: 30px;
+    width: 30%;
+}
+#salar{
+    display: flex;
+}
+#madidiparrafo{
+    background-color: tomato;
+    margin: 1%;
+    padding: 30px;
+    width: 30%;
+}
+#parque{
+    display: flex;
+}
+#lagoparrafo{
+    background-color: tomato;
+    margin: 1%;
+    padding: 30px;
+    width: 30%;
+}
+#lago{
+    display: flex;
+}
+#sajamaparrafo{
+    background-color: tomato;
+    margin: 1%;
+    padding: 30px;
+    width: 30%;
+}
+#sajama{
+    display: flex;
+}
+#oruroparrafo{
+    background-color: tomato;
+    margin: 1%;
+    padding: 30px;
+    width: 30%;
+}
+#oruro{
+    display: flex;
+}
+#laparrafo{
+    background-color: tomato;
+    margin: 1%;
+    padding: 30px;
+    width: 30%;
+}
+#la{
+    display: flex;
+}
+#minaparrafo{
+    background-color: tomato;
+    margin: 1%;
+    padding: 30px;
+    width: 30%;
+}
+#minas{
+    display: flex;
+}
+#plazaparrafo{
+    background-color: tomato;
+    margin: 1%;
+    padding: 30px;
+    width: 30%;
+}
+#plaza{
+    display: flex;
+}
+#toroparrafo{
+    background-color: tomato;
+    margin: 1%;
+    padding: 30px;
+    width: 30%;
+}
+#torotoro{
+    display: flex;
+}
+p{
+    color:rgb(255, 255, 255);
+}
+a{
+    background-color: salmon;
+    display: inline-block;
+    text-decoration: none;
+    padding: 20px 40px;
+    color: white;
+}
+a:hover{
+    background-color: rgba(7, 180, 22, 0.527);
+}
+@media(max-width:600px){
+    flex-direction:colum;
+}
