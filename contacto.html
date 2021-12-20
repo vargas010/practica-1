@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Formulario</title>
+	<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+<div class="wrapper">
+    <div class="title">
+      Formulario
+      <form action="gracias.html" method="GET">
+          
+    </div>
+    <div class="form">
+       <div class="inputfield">
+          <label for="letra">Nombre y Apellido:</label>
+          <input type="text" class="input" name="letra" required="" pattern="[a-zA-Z]+">
+       </div>  
+        <div class="inputfield">
+          <label for="Correo">Correo</label>
+          <input type="email" class="input" name="Correo" required>
+       </div>  
+       <div class="inputfield">
+         
+        <label for="numero">Telefono/Celular:</label>
+        <input type="text" class="input" name="numero" required="" pattern="[0-9]+">
+      
+     </div>   
+      <div class="inputfield">
+        <label for="start">Fecha Actual:</label>
+        <input type="date" class="input" name="start" placeholder="Fecha">
+       </div> 
+       <div class="inputfield">
+        <label for="letra">Tipo de Usuario:</label>
+        <input type="text" class="input" name="letra" required="" pattern="[a-zA-Z]+">
+     </div> 
+        <div class="inputfield">
+          <label>Lugar que requiere información</label>
+          <div class="custom_select">
+            <select>
+              <option value="">Bolivia</option>
+              <option value="female">Beni</option>
+              <option value="female">Tarija</option>
+              <option value="female">Chuquisaca</option>
+              <option value="female">Potosi</option>
+              <option value="male">Cochabamba</option>
+              <option value="female">Santa Cruz</option>
+              <option value="female">La Paz</option>
+              <option value="female">Oruro</option>
+              <option value="female">Pando</option>
+              
+
+            </select>
+          </div>
+       </div> 
+ 
+      <div class="inputfield">
+        <input type="submit" value="Enviar" class="btn">
+
+        </form>
+        
+      </div>
+    </div>
+</div>	
+	
+</body>
+</html>
