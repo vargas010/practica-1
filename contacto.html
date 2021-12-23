@@ -3,68 +3,27 @@
 <head>
 	<meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/formulario.css">
 	<title>Formulario</title>
-	<link rel="stylesheet" href="css/styles.css">
+	
 </head>
 <body>
-
-<div class="wrapper">
-    <div class="title">
-      Formulario
-      <form action="gracias.html" method="GET">
+      <form action="inicio.html" class="formulario" method="GET">
+        <h1 class="fotmulariotitulo">Formulario</h1>
+        <p>El siguiente formulario esta hecho para brindar alguna informacion disponoble en la pagina de TURWEB.</p>
           
-    </div>
-    <div class="form">
-       <div class="inputfield">
-          <label for="letra">Nombre y Apellido:</label>
-          <input type="text" class="input" name="letra" required="" pattern="[a-zA-Z]+">
-       </div>  
-        <div class="inputfield">
-          <label for="Correo">Correo</label>
-          <input type="email" class="input" name="Correo" required>
-       </div>  
-       <div class="inputfield">
-         
-        <label for="numero">Telefono/Celular:</label>
-        <input type="text" class="input" name="numero" required="" pattern="[0-9]+">
+        <input type="text" class="input" name="Nombre" required>
+        <label for="letra" class="label">/Nombre y Apellido</label>
+           
+        <input type="email" class="input" name="Correo" required>
+        <label for="Correo" class="label">/Correo Electronico</label>
+        
       
-     </div>   
-      <div class="inputfield">
-        <label for="start">Fecha Actual:</label>
-        <input type="date" class="input" name="start" placeholder="Fecha">
-       </div> 
-       <div class="inputfield">
-        <label for="letra">Tipo de Usuario:</label>
-        <input type="text" class="input" name="letra" required="" pattern="[a-zA-Z]+">
-     </div> 
-        <div class="inputfield">
-          <label>Lugar que requiere información</label>
-          <div class="custom_select">
-            <select>
-              <option value="">Bolivia</option>
-              <option value="female">Beni</option>
-              <option value="female">Tarija</option>
-              <option value="female">Chuquisaca</option>
-              <option value="female">Potosi</option>
-              <option value="male">Cochabamba</option>
-              <option value="female">Santa Cruz</option>
-              <option value="female">La Paz</option>
-              <option value="female">Oruro</option>
-              <option value="female">Pando</option>
-              
-
-            </select>
-          </div>
-       </div> 
- 
-      <div class="inputfield">
-        <input type="submit" value="Enviar" class="btn">
+        <input type="text" class="input" name="Celular" required>
+        <label for="letra" class="label">/Numero de Telefono:</label>
+        
+        <input type="submit" value="Enviar" class="submit">
 
         </form>
-        
-      </div>
-    </div>
-</div>	
-	
 </body>
 </html>

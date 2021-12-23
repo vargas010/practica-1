@@ -4,24 +4,31 @@ body{
 }
 h1{
     color:white;
-    background-color:tomato ;
-    font-size: 26px;
-
+    background-color:#ff6347 ;
+    font-size: 36px;
+    text-align: center;
+    border:2px solid #fff;
+    border-radius: 10px;
 }
 div{
     color:rgb(255, 255, 255);
     margin: 10px 100px;
     background-color: rgb(10, 20, 110);
+    border: 2px solid #fff;
+    border-radius: 10px;
 }
 h3{
     color:rgb(255, 255, 255);
     font-size: 26px;
+    text-align: center;
 }
 nav{
     background-color:rgb(206, 71, 66);
     padding: 20px;
     display: flex;
     justify-content: space-around;
+    border: 2px solid #fff;
+    border-radius: 10px;
 }
 #parrafodelcristo{
     background-color: tomato;
@@ -36,6 +43,7 @@ h2{
     margin: 10px 300px 10px 300px;
     padding: 1px;
     color:rgb(255, 255, 255);
+    text-align: center;
 }
 #salarparrafo{
     background-color: tomato;
@@ -119,7 +127,9 @@ h2{
     display: flex;
 }
 p{
+    border: 2px solid #fff;
     color:rgb(255, 255, 255);
+    margin: 2%;
 }
 a{
     background-color: salmon;
@@ -132,5 +142,13 @@ a:hover{
     background-color: rgba(7, 180, 22, 0.527);
 }
 @media(max-width:600px){
-    flex-direction:colum;
+    nav{
+        background-color: black;
+        flex-direction: column;
+        
+    }
+    
+}
+footer{
+    margin-left: 100px;
 }

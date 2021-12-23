@@ -11,5 +11,17 @@
     <footer>Direccion:
         <a target="_blank" href="https://goo.gl/maps/jbZid3CXWu1F193E7">Av. de la Concordia, Cochabamba</a></footer>
         <link rel="stylesheet" href="estiloinicio.css">
+        <link rel="stylesheet" href="css/styles.css">
+        font-size: 1.3em;
+        var inputs = document.getElementsByClassName('input');
+for(var i = 0 ; i < inputs.length; i++){
+    inputs[i].addEventListener('keyu', function(){
+        if(this.value.length>=1){
+            this.add(label);
+        } else{
+            this.remove(label);
+        }
+    })
+}
 </body>
 </html>
